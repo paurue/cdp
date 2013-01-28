@@ -1,0 +1,37 @@
+1		agr0	growth rate
+0.05    agrcl	growth rate correlation length
+2       agrcp	growth rate correlation exponent (structure function)
+5		Kmax	maximum carrying capacity
+1.5 	Kmin    min carrying capacity
+0.05 	lbdK	carrying capacity decay
+1       epsK    carrying capacity time scale
+50      kk      carrying capacity waste threshold
+2       nk      carrying capacity Hill coefficient
+1		am		matrix accumulation rate
+0.05	km		matrix accumulation density threshold
+0.0		lbd		matrix degradation rate
+2		nh		matrix accumulation density Hill coefficient (nh)
+1		aw		waste accumulation rate
+0.0		lbdw	waste degradation rate
+20		as		sytox accumulation rate
+3.75	ks		sytox accumulation density threshold
+20		lbds	sytox degradation rate
+3		ns		sytox accumulation density Hill coefficient
+2500	gd		maximum diffusion coefficient
+0.005 	kd		diffusion coefficient matrix threshold
+2		ph		diffusion coefficient matrix Hill coefficient
+0		umin	initial condition minimum
+5e-4	umax	initial condition maximum
+1   	ict		initial condition type
+1.5     rcol    colony radius
+0       rring   coffee ring max radius
+500  	L		linear size
+40		tt		total time
+0.5 	st		measuring time
+10		dx		spatial mesh size
+0.01	ds		integration time step
+121		seed	random number generator seed
+1		save_u	save density patterns
+0		save_m	save matrix patterns
+0		save_w	save waste patterns
+1		save_s	save sytox patterns
