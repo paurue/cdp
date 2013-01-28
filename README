@@ -1,0 +1,24 @@
+Simulation code for the 2D model of cell death pattern formation during 
+B.subtilis biofilm formation. The model was introduced in:
+Localized cell death focuses mechanical forces during 3D patterning in a biofilm. 
+M. Asally, M. Kittisopikul, P. Rué, Y. Dud, Z. Hud, T. Çağatay, A.B. Robinson, 
+H. Lud, J. Garcia-Ojalvo, and G. M. Süel Proc Natl Acad Sci USA, (2012)
+
+
+REQUIREMENTS:
+This software has been built with GNU C compiler (gcc) in Linux and Mac OS X.
+In addition, the code uses the random number generator from the Gnu Scientific 
+Library (http://www.gnu.org/software/gsl/) and the fast fourier transform 
+subrutines from the FFTW library (http://www.fftw.org/).
+
+INSTALLATION:
+Go to the src/ directory and build the code
+	$ cd src/
+	$ make
+	$ cp cdp ../
+
+USAGE:
+	$ ./cdp param_name
+
+here 'param_name' is the name of the parameters file (without extension) found in the 'parfile/' directory (i.e., 'parfile/param_name.par').
+
